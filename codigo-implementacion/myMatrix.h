@@ -51,7 +51,7 @@ public:
         }
     }
     void mostrarMatriz(){
-        std::cout << "matriz ingresada es: " << std::endl;
+        std::cout << "Mostrar matriz: " << std::endl;
         for (int f=0;f<this->row;f++) {
             for (int c = 0; c < this->col; c++) {
                 std::cout << arr[f][c] << " ";
@@ -61,15 +61,17 @@ public:
         std::cout << std::endl;
     }
     Mimatriz<T> operator+(Mimatriz<T> m2){
+        Mimatriz<int> m3(this->row,this->col);
         std::cout << "Ejecucion de suma: " << std::endl;
         for (int f=0;f<this->row;f++) {
             for (int c = 0; c < this->col; c++) {
                 std::cout << arr[f][c] + m2.arr[f][c]<< " ";
-                //m3 = arr[f][c] + m2.arr[f][c];
+                m3.arr[f][c] = arr[f][c] + m2.arr[f][c];
             }
             std::cout << std::endl;
         }
         std::cout << std::endl;
+        return m3;
     }
 
 };

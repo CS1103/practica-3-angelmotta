@@ -31,7 +31,10 @@ int main() {
     m2.mostrarMatriz();
     std::cout << "Ejecutando suma" << std::endl;
     Mimatriz<int> m3(m1_row,m1_col);
-    m1 + m2;
+    m3 = m1 + m2;
+    std::cout << "Matriz resultante de la suma" << std::endl;
+    std::cout << "------------------------------" << std::endl;
+    m3.mostrarMatriz();
     std::cout << "Fin de suma" << std::endl;
     return 0;
 }

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/angelinux/CLionProjects/practica-3-angelmotta/codigo-implementacion/main.cpp
+iostream
+-
+myMatrix.h
+/Users/angelinux/CLionProjects/practica-3-angelmotta/codigo-implementacion/myMatrix.h
+iostream
+-
+
+/Users/angelinux/CLionProjects/practica-3-angelmotta/codigo-implementacion/myMatrix.h
+iostream
+-
+tuple
+-
+

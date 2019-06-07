@@ -1,0 +1,3 @@
+/Users/angelinux/CLionProjects/practica-3-angelmotta/codigo-implementacion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/angelinux/CLionProjects/practica-3-angelmotta/codigo-implementacion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/angelinux/CLionProjects/practica-3-angelmotta/codigo-implementacion/cmake-build-debug/CMakeFiles/codigo_implementacion.dir
